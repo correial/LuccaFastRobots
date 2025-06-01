@@ -19,10 +19,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-12/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-12/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-12/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-12/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-12/">&lt;h2 id=&quot;overall&quot;&gt;Overall&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-12/">&lt;h2 id=&quot;overall&quot;&gt;Overall&lt;&#x2F;h2&gt;
 &lt;p&gt;I worked with Trevor and Jack to navigate our robot through a preset route of waypoints assigned to us in the lab (shown below). Overall, we were very successful in arriving and navigating through these waypoints completely autonomously with a combination of on-board PID control and off-board localization processing! The final result was incredibly rewarding as it required us to combine and implement various aspects of code and hardware debugging learned throughout the semester in addition to navigation and waypoint logic.&lt;&#x2F;p&gt;
 &lt;p&gt;We began with complementary arrays of waypoints and localization booleans (i.e. a point, and a boolean to signal the script to localize at that waypoint). This allowed us to manually assign which points we localized at based on the accuracy of localization at each waypoint for the most accurate navigation. To navigate between points, we used sequential orientation and position PID using the DMP onboard our IMU, and Kalman-filtered TOF sensor, respectively.&lt;&#x2F;p&gt;
 &lt;p&gt;We used my robot for this lab, and collaborated jointly on both Arduino and Python code components!&lt;&#x2F;p&gt;
@@ -271,10 +271,10 @@ Requests the current pose from the robot (&lt;code&gt;CMD.SEND_CURRENT_POSE&lt;&
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-11/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-11/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-11/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-11/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-11/">&lt;h2 id=&quot;simulation&quot;&gt;Simulation&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-11/">&lt;h2 id=&quot;simulation&quot;&gt;Simulation&lt;&#x2F;h2&gt;
 &lt;p&gt;I started by verifying that the &lt;code&gt;lab11_sim.ipynb&lt;&#x2F;code&gt; file successfully produces the same localization results as from lab 10. From the image below, you can see that we obtain the expected outcome. Again, you can see the unreliability of the odometry model…&lt;&#x2F;p&gt;
 &lt;img src=&quot;&#x2F;Fast Robots Media&#x2F;Lab 11&#x2F;Sim.png&quot; alt=&quot;Alt text&quot; style=&quot;display:block;&quot;&gt;
 &lt;figcaption&gt;Localization Simulation&lt;&#x2F;figcaption&gt;
@@ -389,10 +389,10 @@ Requests the current pose from the robot (&lt;code&gt;CMD.SEND_CURRENT_POSE&lt;&
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-10/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-10/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-10/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-10/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-10/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-10/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
 &lt;p&gt;Our robot lack absolute or “ground truth” knowledge of its position. As a result, it must infer its location using information from the environment (ToF sensors)—a process known as localization, which is most effective when approached probabilistically. To implement probabilistic localization, we use a Bayes filter, which maintains a “belief” about the robot’s position. Based on its initial state as well as ToF sensor data and control inputs, the robot forms an estimate of where it might be. As new sensor readings and inputs are received, the robot continuously updates this belief using Bayesian inference. This lab aims to implement Bayes Filter via simulation before implementing on the robot.&lt;&#x2F;p&gt;
 &lt;p&gt;The robot state is 3 dimensional and is given by (&lt;em&gt;x, y&lt;&#x2F;em&gt;, $ \theta $). The robot’s world is a continuous space that spans with dimensions:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -572,10 +572,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-8/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-8/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-8/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-8/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-8/">&lt;img src=&quot;&#x2F;Fast Robots Media&#x2F;Lab 8&#x2F;FRCars.png&quot; alt=&quot;Alt text&quot; style=&quot;display:block;&quot;&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-8/">&lt;img src=&quot;&#x2F;Fast Robots Media&#x2F;Lab 8&#x2F;FRCars.png&quot; alt=&quot;Alt text&quot; style=&quot;display:block;&quot;&gt;
 &lt;figcaption&gt;Cars 3 Way Tie&lt;&#x2F;figcaption&gt;
 &lt;h2 id=&quot;flip-implementation&quot;&gt;Flip Implementation&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;bluetooth-data-transmission&quot;&gt;Bluetooth Data Transmission&lt;&#x2F;h3&gt;
@@ -739,10 +739,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-9/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-9/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-9/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-9/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-9/">&lt;h2 id=&quot;orientation-control-implementation&quot;&gt;Orientation Control Implementation&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-9/">&lt;h2 id=&quot;orientation-control-implementation&quot;&gt;Orientation Control Implementation&lt;&#x2F;h2&gt;
 &lt;p&gt;Orientation control via the IMU’s DMP library was used to set target angles for ToF data collection. With success and high accuracy using the DMP in Lab 6, I figured that this was the best approach to ensure that the robot was reliably turning a set number of degrees throughout its rotation.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;ble-and-data-transmission&quot;&gt;BLE and Data Transmission&lt;&#x2F;h3&gt;
 &lt;p&gt;The &lt;code&gt;SPIN&lt;&#x2F;code&gt; case handled initiating and running the turning logic as well as sending data over BLE at the end of collection. The case was called over bluetooth via the command: &lt;code&gt;ble.send_command(CMD.SPIN, &quot;4.6|0|0&quot;)&lt;&#x2F;code&gt;. The parameters are used to pass through PID gains for more efficient tuning and are ordered as follows: Kp|Ki|Kd. I found that with the small changes in target angles, and the goal of moving fairly slow, that only proportional control was needed to reliably come within a degree or two of the target. At the slow speeds, there was minimal, if any, overshoot thus a derivative term was not needed. A notification handler is used to recieve the data and help pipe it into CSV files as used in previous labs.&lt;&#x2F;p&gt;
@@ -894,10 +894,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-7/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-7/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-7/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-7/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-7/">&lt;h2 id=&quot;drag-and-mass-estimations&quot;&gt;Drag and Mass Estimations&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-7/">&lt;h2 id=&quot;drag-and-mass-estimations&quot;&gt;Drag and Mass Estimations&lt;&#x2F;h2&gt;
 &lt;p&gt;We can start with approximating the open-loop robot system as first-order using Newton’s second law&lt;&#x2F;p&gt;
 &lt;p&gt;$$ F = ma = m\ddot{x} $$&lt;&#x2F;p&gt;
 &lt;p&gt;then adding the linear drag force (d) and motor input (u),&lt;&#x2F;p&gt;
@@ -1209,10 +1209,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-6/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-6/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-6/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-6/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-6/">&lt;h2 id=&quot;bluetooth-communication-and-pid-dmp-code&quot;&gt;Bluetooth Communication and PID&#x2F;DMP Code&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-6/">&lt;h2 id=&quot;bluetooth-communication-and-pid-dmp-code&quot;&gt;Bluetooth Communication and PID&#x2F;DMP Code&lt;&#x2F;h2&gt;
 &lt;p&gt;PID code is handeled and sent over bluetooth in a very similar fasion to lab 5!&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;main-function&quot;&gt;Main Function&lt;&#x2F;h3&gt;
 &lt;p&gt;Here is the turning PID part of the main function. The PID turning code waits until the &lt;code&gt;start_time_pid_turn&lt;&#x2F;code&gt; flag is set to 1 via the &lt;code&gt;PID_TURN_CONTROL&lt;&#x2F;code&gt; command that is responsible for sending the Kp, Ki, and Kd gains as well as sending the starting flag: &lt;code&gt;ble.send_command(CMD.PID_TURN_CONTROL, &quot;1.5|0|40|90&quot;) # P|I|D&lt;&#x2F;code&gt;. The &lt;code&gt;getDMP&lt;&#x2F;code&gt; and &lt;code&gt;runPIDROT()&lt;&#x2F;code&gt; functions are covered in detail in the next sections. After the turning PID arrays are filled, the robot is then instructed to stop and the &lt;code&gt;sendPIDTURNData()&lt;&#x2F;code&gt; function is used to loop through all arrays and send them over to be piped into a CVS via my notification hander.&lt;&#x2F;p&gt;
@@ -1427,10 +1427,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-5/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-5/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-5/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-5/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-5/">&lt;h2 id=&quot;bluetooth-communication-and-pid-code&quot;&gt;Bluetooth Communication and PID Code&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-5/">&lt;h2 id=&quot;bluetooth-communication-and-pid-code&quot;&gt;Bluetooth Communication and PID Code&lt;&#x2F;h2&gt;
 &lt;p&gt;Data communication to and from the computer and Artemis were handeled similar to previous labs. The &lt;code&gt;PID.CONTROL&lt;&#x2F;code&gt; command is used to send the start flag and the Kp, Ki, Kd, and target distance: &lt;code&gt;ble.send_command(CMD.PID_CONTROL, &quot;.05|0|6|300&quot;) # P|I|D&lt;&#x2F;code&gt;. The Arduino recieves the gains:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;c++&quot; class=&quot;language-c++ z-code&quot;&gt;&lt;code class=&quot;language-c++&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;    &lt;span class=&quot;z-keyword z-control z-c++&quot;&gt;case&lt;&#x2F;span&gt; PID_CONTROL&lt;span class=&quot;z-punctuation z-separator z-c++&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-block z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-c++&quot;&gt;{&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;&lt;span class=&quot;z-meta z-block z-c++&quot;&gt;    pid_start &lt;span class=&quot;z-keyword z-operator z-assignment z-c&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-c++&quot;&gt;1&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-c++&quot;&gt;;&lt;&#x2F;span&gt;
@@ -1620,10 +1620,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-4/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-4/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-4/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-4/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-4/">&lt;h2 id=&quot;prelab&quot;&gt;Prelab&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-4/">&lt;h2 id=&quot;prelab&quot;&gt;Prelab&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;system-wiring&quot;&gt;System Wiring&lt;&#x2F;h3&gt;
 &lt;p&gt;I decided to use pins &lt;strong&gt;13, A14, A15, A16&lt;&#x2F;strong&gt; for control on the Artemis. This pin proximity does increase risk of shorting connections, however it allows for a more compact design and greater area of the board to be used for mounting to the car rather than having to avoid largely seperated pins. Furthermore, according to the data sheet pins marked with a (~) indicate PWM capability which is required to send signals to the motor drivers.&lt;&#x2F;p&gt;
 &lt;img src=&quot;&#x2F;Fast Robots Media&#x2F;Lab 4&#x2F;Artemis Schematic.png&quot; height = 450 alt=&quot;Alt text&quot; style=&quot;display:block;&quot;&gt;
@@ -1769,10 +1769,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-2/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-2/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-2/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-2/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-2/">&lt;h3 id=&quot;imu-setup&quot;&gt;IMU Setup&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-2/">&lt;h3 id=&quot;imu-setup&quot;&gt;IMU Setup&lt;&#x2F;h3&gt;
 &lt;h4 id=&quot;ad0-val-initial-data-observations&quot;&gt;AD0_VAL &amp;amp; Initial Data Observations&lt;&#x2F;h4&gt;
 &lt;p&gt;The AD0_VAL represents the last bit of the I2C address. In our case, 1 is set as the default and that shouldn’t be changed unless the ADR on the board is closed via solder and then should be set to 0.&lt;&#x2F;p&gt;
 &lt;p&gt;After testing with the example code as well as the lecture 4 code, it appears that the accelerometer and gyroscope data print as expected. Three axis are printed for both sensor as well as the corresponding unit (mg for acceleration and DPF for the gyroscope). As discussed in lecture, in the data you can see accelerations and rotations being tracked but not absolute position; changes in the printed values only occur with movement. Additionally, you can see that the changing values are dependent on the axis being rotated about and the sensor being observed. When rotating around the z-axis you can see that the accelerometer data does not change, however the gyroscope does. When accelerating the board along the x-axis you can see a change in value for the accelerometer x-axis but not the gyroscope.&lt;&#x2F;p&gt;
@@ -2092,10 +2092,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-3/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-3/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-3/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-3/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-3/">&lt;h3 id=&quot;i2c-address-and-time-of-flight-sensor-discussion&quot;&gt;I2C Address and Time-of-Flight Sensor Discussion&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-3/">&lt;h3 id=&quot;i2c-address-and-time-of-flight-sensor-discussion&quot;&gt;I2C Address and Time-of-Flight Sensor Discussion&lt;&#x2F;h3&gt;
 &lt;p&gt;Two time of flight sensors will used and ultimately mounted on the car to provide different points of view to help the robot naviate; one of my ToF sensors will be mounted on the front center of the car and the other between the two wheels on one side. This will allow me to keep a set distance from walls to the side as well as avoid obstacles and navigate with vision at the front.&lt;&#x2F;p&gt;
 &lt;p&gt;Since we want to use two ToF flight sensors which have the same I2C address, we use the XSHUT pin on one of the sensors to shut off one ToF which modifying the I2C address of the other. It can then be restarted again to function simultaniously with the other. Below is the code to execute this initialization:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;c++&quot; class=&quot;language-c++ z-code&quot;&gt;&lt;code class=&quot;language-c++&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;  &lt;span class=&quot;z-meta z-function-call z-c++&quot;&gt;&lt;span class=&quot;z-variable z-function z-c++&quot;&gt;pinMode&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-c++&quot;&gt;(&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-c++&quot;&gt;&lt;span class=&quot;z-meta z-group z-c++&quot;&gt;SHUTDOWN_PIN&lt;span class=&quot;z-punctuation z-separator z-c++&quot;&gt;,&lt;&#x2F;span&gt; OUTPUT&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-c++&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-c++&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-c++&quot;&gt;;&lt;&#x2F;span&gt;
@@ -2253,10 +2253,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-1/"/>
-        <id>https://correial.github.io/LuccaFastRobots/Fast Robots/lab-1/</id>
+        <link rel="alternate" type="text/html" href="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-1/"/>
+        <id>https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-1/</id>
         
-        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots/lab-1/">&lt;h2 id=&quot;lab-1a&quot;&gt;Lab 1a&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://correial.github.io/LuccaFastRobots/Fast Robots Stuff/lab-1/">&lt;h2 id=&quot;lab-1a&quot;&gt;Lab 1a&lt;&#x2F;h2&gt;
 &lt;p&gt;During section 1a of the lab I installed the Arduino IDE and established a wired connection to communicate with the Artemis Nano. To connect I had to select the correct board and port in the Arduino IDE. Then, to test the connection and explore the Arduino environment I completed the following assigned example sketches in the Arduino IDE:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basics_blink&lt;&#x2F;li&gt;
