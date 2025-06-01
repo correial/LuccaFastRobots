@@ -1,6 +1,6 @@
 theme = "duckquill"
 title = "Home"
-base_url = "https://correial.github.io/"
+base_url = "https://correial.github.io/LuccaFastRobots/"
 
 
 compile_sass = true
