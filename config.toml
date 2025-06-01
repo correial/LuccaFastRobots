@@ -68,7 +68,7 @@ show_theme_switcher = true
 
 links = [
 	{ name = "Projects", menu = [
-		{ url = "@/Fast Robots/_index.md", name = "MAE 4190 Fast Robots" },
+		{ url = "@/Fast Robots Stuff/_index.md", name = "MAE 4190 Fast Robots" },
 		
 	] },
 	
